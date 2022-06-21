@@ -22,8 +22,17 @@ Com a versão atualizada, precisa-se instalar algumas bibliotecas utilizadas ao 
 
 >pip install socket
 
-A sincronização do tempo das máquinas virtuais precisam ser realizadas, para isso o seguinte passo precisa ser seguido. Mostrar a sincronização
-TESTANDO OS PROGRAMAS
+A sincronização do tempo das máquinas virtuais precisam ser realizadas, para isso o seguinte passo precisa ser seguido.
+
+>sudo apt-get update
+
+>sudo apt-get install ntp ntpdate
+
+>service ntp stop
+
+>ntpdate a.ntp.br
+
+>service ntp start
 
 >**NOTA:** Como esse trabalho foi desenvolvido para fins didáticos, algumas informações devem ser inseridas no código, como por exemplo o IPs e portas de algumas máquinas.
 
