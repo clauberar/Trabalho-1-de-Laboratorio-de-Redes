@@ -26,6 +26,7 @@ A sincronização do tempo das máquinas virtuais precisam ser realizadas, para 
 TESTANDO OS PROGRAMAS
 
 >**NOTA:** Como esse trabalho foi desenvolvido para fins didáticos, algumas informações devem ser inseridas no código, como por exemplo o IPs e portas de algumas máquinas.
+
 >**NOTA:** Devido a conexão, a ordem de "abertura" dos programas devem ser respeitada. Sendo ela a ordem: **3ºPrograma, 2ºPrograma e 1ºPrograma.**
  
 ### PROGRAMA 1
